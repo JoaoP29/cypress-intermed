@@ -1,5 +1,3 @@
-
-
 Cypress.Commands.add('cloneViaSSH', project => {
   const domain = Cypress.config('baseUrl').replace('http://', '')
 
